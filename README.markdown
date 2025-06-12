@@ -6,6 +6,8 @@ This project implements a gaze-tracking system integrated with a chatbot to assi
 
 The system divides the screen into four quadrants, each displaying a potential emergency option provided by the chatbot. When a user gazes at a quadrant for a specified duration (e.g., 10 seconds), a notification is displayed, and the chatbot processes the selection to either refine the options or display a final result. The project is designed to be accessible, user-friendly, and responsive, with a focus on real-time interaction.
 
+---
+
 ## Features
 
 - **Gaze Tracking**: Utilizes WebGazer.js to track the user's eye movements and determine their focus on specific screen quadrants.
@@ -15,6 +17,8 @@ The system divides the screen into four quadrants, each displaying a potential e
 - **Responsive Design**: Adapts to different screen sizes by dynamically setting the canvas and UI elements to the window's dimensions.
 - **Session Persistence**: Saves gaze data across sessions for improved calibration and user experience.
 - **Error Handling**: Robust error handling for API calls and response parsing to ensure a smooth user experience.
+
+---
 
 ## Prerequisites
 
@@ -26,6 +30,8 @@ To run this project locally, ensure you have the following:
 - **WebGazer.js**: Included via a CDN or local file (see setup instructions).
 - **Backend API**: A running instance of the chatbot API (e.g., hosted at `http://localhost:3000/api/v1/prediction/...`).
 - **Audio File**: A notification sound file (`notification_sound.mp3`) for audio alerts.
+
+---
 
 ## Installation
 
@@ -79,6 +85,8 @@ To run this project locally, ensure you have the following:
      ```
    - Access the application at `http://localhost:8080` (or the port specified by your server).
 
+---
+
 ## Usage
 
 1. **Start the Application**:
@@ -98,6 +106,8 @@ To run this project locally, ensure you have the following:
 
 4. **End Session**:
    - Closing the browser tab or window will end the WebGazer session and save gaze data (if enabled).
+
+---
 
 ## Code Structure
 
@@ -119,6 +129,8 @@ To run this project locally, ensure you have the following:
   - `updatePageWithList(text)`: Displays the final result in a centered square.
   - `convertToJSON(chatbotResponse)`: Parses the chatbot's response into a structured JSON object.
 
+---
+
 ## Configuration
 
 - **Gaze Threshold**: Set in `gazeThreshold` (default: 10,000 ms or 10 seconds). Adjust this value to change how long a user must look at a quadrant to trigger a selection.
@@ -127,6 +139,8 @@ To run this project locally, ensure you have the following:
 - **Session ID**: The `sessionId` variable ensures consistent chatbot sessions. Generate a new UUID if needed.
 - **Notification Sound**: Replace `notification_sound.mp3` with your audio file or update the path in `showNotification`.
 
+---
+
 ## Limitations
 
 - **Webcam Dependency**: Requires a webcam and user permission for gaze tracking.
@@ -134,6 +148,8 @@ To run this project locally, ensure you have the following:
 - **API Dependency**: The system relies on a running chatbot API. Ensure the endpoint is accessible.
 - **Browser Compatibility**: Works best in modern browsers with WebRTC support.
 - **Single Selection**: The system currently processes one quadrant selection at a time.
+
+---
 
 ## Future Improvements
 
@@ -144,12 +160,16 @@ To run this project locally, ensure you have the following:
 - **Multi-language Support**: Extend the chatbot to handle multiple languages.
 - **Analytics**: Track user interactions and gaze patterns for further analysis.
 
+---
+
 ## Troubleshooting
 
 - **WebGazer Not Tracking**: Ensure the webcam is enabled and calibration is completed. Check the console for errors.
 - **API Errors**: Verify the API endpoint is correct and the server is running. Check network connectivity.
 - **No Notification Sound**: Confirm the `notification_sound.mp3` file exists and is accessible.
 - **UI Issues**: Ensure the browser window is not resized during calibration, as this may affect quadrant alignment.
+
+---
 
 ## Contributing
 
@@ -161,10 +181,23 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request with a detailed description of your changes.
 
+---
+
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+```
+MIT License © 2025 Ibrahim Mohamed Ibrahim
+```
 
-## Contact
+---
 
-For questions or support, please contact [your-email@example.com](mailto:your-email@example.com) or open an issue on the GitHub repository.
+## Author & Contact
+
+```
+Developed by: Ibrahim Mohamed Ibrahim
+GitHub: https://github.com/eIbrahim67
+LinkedIn: https://www.linkedin.com/in/eibrahim67
+Email: ibrahim.mohamed.ibrahim.t@gmail.com
+```
+
+---
