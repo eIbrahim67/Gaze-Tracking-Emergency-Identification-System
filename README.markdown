@@ -1,5 +1,7 @@
 # Gaze-Tracking Emergency Identification System
 
+[!Gaze-Tracking Emergency Identification System](https://github.com/eIbrahim67/Gaze-Tracking-Emergency-Identification-System/blob/main/gaze_1.png)
+
 ## Overview
 
 This project implements a gaze-tracking system integrated with a chatbot to assist users in identifying emergencies through an interactive web interface. The application leverages the WebGazer.js library to track eye movements and determine which quadrant of the screen the user is looking at. Based on prolonged gaze in a quadrant, the system triggers a chatbot to provide relevant information or ask further questions to narrow down the nature of the emergency.
