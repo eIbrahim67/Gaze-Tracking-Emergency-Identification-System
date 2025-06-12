@@ -1,6 +1,6 @@
 # Gaze-Tracking Emergency Identification System
 
-[!Gaze-Tracking Emergency Identification System](https://github.com/eIbrahim67/Gaze-Tracking-Emergency-Identification-System/blob/main/gaze_1.png)
+![Gaze-Tracking Emergency Identification System](https://github.com/eIbrahim67/Gaze-Tracking-Emergency-Identification-System/blob/main/gaze_1.png)
 
 ## Overview
 
